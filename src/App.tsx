@@ -21,7 +21,7 @@ function App() {
               </ProtectedRoute>
             } 
           />
-          <Route path="*" element={<NotFoundPage imagePath="notfound.png" />} />
+          <Route path="*" element={<NotFoundPage imagePath="/notfound.png" />} />
         </Routes>
         </AuthProvider>
       </Router>
