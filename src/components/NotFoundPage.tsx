@@ -29,7 +29,7 @@ const NotFoundPage: React.FC<NotFoundPageProps> = ({ imagePath }) => {
             backgroundImage: `url(${imagePath})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            filter: 'blur10px)',
+            filter: 'blur(10px)',
             transform: 'scale(1.3)',
             zIndex: 1
           }} />
